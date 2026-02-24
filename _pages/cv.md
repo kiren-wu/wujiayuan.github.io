@@ -87,28 +87,3 @@ Sep 2017 – Jul 2021 (GPA: 3.39/4.00)
 **Programming:** Linux, R  
 **Tools (Linux):** plink, bedtools, GCTA, PEER, PennCNV, FastQC, Trimmomatic, samtools, HISAT2  
 **Tools (R):** CNVRanger, GALLO, DNAcopy, MatrixEQTL, coloc, GenomicRanges, edgeR, HandyCNV  
-
----
-
-## Auto-generated Lists (optional)
-
-### Publications (from site collection)
-<ul>
-{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}
-</ul>
-
-### Talks (from site collection)
-<ul>
-{% for post in site.talks reversed %}
-  {% include archive-single-talk-cv.html %}
-{% endfor %}
-</ul>
-
-### Teaching (from site collection)
-<ul>
-{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}
-</ul>
