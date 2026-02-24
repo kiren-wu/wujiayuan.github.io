@@ -9,56 +9,106 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+# Jiayuan Wu
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+PhD Student, Virginia Tech (BMDS)  
+Washington, DC, USA  
+Email: wujy0610@163.com  
+GitHub: kieran-wu  
+Google Scholar: (add your link)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+---
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Education
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Ph.D. Student**, Virginia Tech — Washington, DC, USA  
+*Biomedical & Veterinary Sciences (BMDS)*  
+(Expected)  
+
+**M.S.**, Animal Genetics, Breeding and Reproduction  
+Graduate School of Chinese Academy of Agricultural Sciences (CAAS), Beijing, China  
+Sep 2021 – Present/Completed  
+
+**B.S.**, Animal Science  
+Southwest University, Chongqing, China  
+Sep 2017 – Jul 2021 (GPA: 3.39/4.00)
+
+---
+
+## Research Experience
+
+**Graduate Research (CAAS / Beef Cattle Genomics & Multi-omics)**  
+- CNV-eQTL / CNV-sQTL / CNV-GWAS / WGCNA / DEG / ASE analysis using SNP-array, RNA-seq, and phenotype data  
+- Colocalization and SMR analyses (participant / collaborator)  
+- Multi-omics integration for variant interpretation and trait regulation in cattle
+
+**Undergraduate Research**  
+- Oral KISS1-54 and KISS1-10 vaccine engineering  
+- Isolation and culture of preadipocytes from rodent white adipose tissue
+
+---
+
+## Publications
+
+1. **Jiayuan Wu**, Tianyi Wu, Xueyuan Xie, et al. Genetic association analysis of copy-number variations (CNVs) for meat quality in beef cattle. *Foods*, 2023.  
+2. Qunhao Niu+, **Jiayuan Wu+**, et al. Comprehensive multi-omics analysis reveals functional regulatory variants for body weight in cattle. *Genomics, Proteomics & Bioinformatics*, under review.  
+3. **Jiayuan Wu†**, Qunhao Niu†, Junya Li*, Lingyang Xu*. CNV-mediated expression regulation and enhancer activity influences fat deposition metabolism in cattle. *Journal of Advanced Research*, under review.
+
+---
+
+## Awards & Honors
+
+- **Chinese National Scholarship**, Jul 2023  
+- Award of Excellence for Graduate Student Social Activities, CAAS, 2022–2023  
+- Outstanding Communist Youth League Member, 2018–2019  
+- Spiritual Civilization / Academic Science & Technology Awards, 2018–2019; 2019–2020
+
+---
+
+## Teaching & Leadership
+
+- Class President (Undergraduate), 2017–2022  
+- Teaching Assistant, Molecular Biology (Nov–Dec 2019; May–Jun 2020)
+
+---
+
+## Field / Lab Experience
+
+- Pinan cattle slaughter experiment / meat quality testing & analysis (Henan Nanyang Yellow Cattle Sci-Tech Center), Mar–Apr 2023  
+- Slaughtering experiment, sampling, carcass determination (Inner Mongolia ZhongAo Food Co.), Apr 2023  
+- Production performance measurement (Ulagai Base, Xilinhot, Inner Mongolia), Jul–Aug 2020  
+- School internship (Dazu Tengda Experimental Station, Chongqing), Sep–Oct 2020  
+- Huaxi cattle expansion and breeding (Xilingol League, Inner Mongolia), Apr–Jun 2020
+
+---
+
+## Skills
+
+**Programming:** Linux, R  
+**Tools (Linux):** plink, bedtools, GCTA, PEER, PennCNV, FastQC, Trimmomatic, samtools, HISAT2  
+**Tools (R):** CNVRanger, GALLO, DNAcopy, MatrixEQTL, coloc, GenomicRanges, edgeR, HandyCNV  
+
+---
+
+## Auto-generated Lists (optional)
+
+### Publications (from site collection)
+<ul>
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+
+### Talks (from site collection)
+<ul>
+{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}
+</ul>
+
+### Teaching (from site collection)
+<ul>
+{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
